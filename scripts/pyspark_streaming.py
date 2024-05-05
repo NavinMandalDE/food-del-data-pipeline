@@ -15,7 +15,7 @@ kinesisStreamName = "food-orders-data"
 kinesisRegion = "us-east-1"
 checkpointLocation = "s3://stream-checkpt-bkt/KDSToRedshift/"
 redshiftJdbcUrl = "jdbc:redshift://redshift-cluster.clqoskx1zta4.us-east-1.redshift.amazonaws.com:5439/dev"
-redshiftTable = "food_delivery_data.factOrders"
+redshiftTable = "food_delivery.factOrders"
 tempDir = "s3://s3-temp-misc/fooddel-temp/"
 
 # Define the schema of the incoming JSON data from Kinesis
